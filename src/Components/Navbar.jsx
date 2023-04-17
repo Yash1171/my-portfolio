@@ -4,6 +4,10 @@ import Toggle from './Toggle/Toggle'
 import { Link } from 'react-scroll'
 const Navbar = () => {
   return (
+    <React.Fragment>
+    <head>
+      <title>Portfolio - Yash Soni</title>
+    </head>
     <div className="n-wrapper">
         <div className="n-left">
             <div className="n-name">Yash</div>
@@ -36,6 +40,7 @@ const Navbar = () => {
             </button>
         </div>
     </div>
+    </React.Fragment>
   )
 }
 
